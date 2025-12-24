@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Partnership | Ranasinghe Infra</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #020617; color: #f8fafc; scroll-behavior: smooth; }
+        .glow-border { border: 1px solid rgba(56, 189, 248, 0.2); transition: all 0.3s ease; }
+        .glow-border:hover { border-color: #38bdf8; box-shadow: 0 0 20px rgba(56, 189, 248, 0.15); }
+        .glass { background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(12px); }
+        .gradient-text { background: linear-gradient(90deg, #38bdf8, #818cf8, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .shimmer { position: relative; overflow: hidden; }
+        .shimmer::after { content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: linear-gradient(45deg, transparent, rgba(255,255,255,0.03), transparent); transform: rotate(45deg); animation: shimmer 4s infinite; }
+        @keyframes shimmer { 0% { transform: translateX(-100%) rotate(45deg); } 100% { transform: translateX(100%) rotate(45deg); } }
+    </style>
+</head>
+<body class="font-sans antialiased">
+
+    <nav class="sticky top-0 z-50 glass border-b border-slate-800 px-6 py-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-2xl font-black tracking-tighter italic hover:opacity-80 transition">RANASINGHE<span class="text-sky-500">.INFRA</span></a>
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-400">
+                <a href="index.html" class="hover:text-sky-400 transition">Home</a>
+                <a href="solutions.html" class="hover:text-sky-400 transition">Solutions</a>
+                <a href="docs.html" class="hover:text-sky-400 transition">Docs</a>
+                <a href="partners.html" class="text-white font-bold">Partners</a>
+                <a href="about.html" class="hover:text-sky-400 transition">Company</a>
+            </div>
+            <a href="https://parameeranasinghe33.gumroad.com/affiliates" class="bg-sky-500 hover:bg-sky-400 text-slate-950 px-6 py-2 rounded-full font-bold text-sm transition shadow-[0_0_15px_rgba(56,189,248,0.4)]">Apply Now</a>
+        </div>
+    </nav>
+
+    <header class="relative pt-24 pb-16 px-6 text-center">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[300px] bg-indigo-500/10 blur-[100px] rounded-full -z-10"></div>
+        <h1 class="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight max-w-4xl mx-auto">
+            Scale AWS Infrastructure. <br/><span class="gradient-text">Earn High-Ticket Commissions.</span>
+        </h1>
+        <p class="text-slate-400 text-lg max-w-2xl mx-auto leading-relaxed mb-10">
+            Join the Ranasinghe Infra Partnership Program. We provide the enterprise-grade assets; you provide the sales. 
+        </p>
+    </header>
+
+    <section class="max-w-5xl mx-auto px-6 py-12">
+        <div class="grid md:grid-cols-2 gap-8">
+            <div class="glass border border-slate-700 p-10 rounded-[40px] shimmer">
+                <h3 class="text-sky-400 font-bold uppercase tracking-widest text-sm mb-4">Commission Rate</h3>
+                <div class="text-6xl font-black mb-4">40%</div>
+                <div class="text-2xl text-slate-300 font-bold mb-6">$480.00 <span class="text-lg font-normal text-slate-500">per license sale</span></div>
+                <ul class="text-slate-400 space-y-3 mb-8">
+                    <li class="flex items-center gap-2"><span class="text-sky-500">✓</span> High-ticket $1,200 product value</li>
+                    <li class="flex items-center gap-2"><span class="text-sky-500">✓</span> Automated tracking via Gumroad</li>
+                    <li class="flex items-center gap-2"><span class="text-sky-500">✓</span> No caps on total earnings</li>
+                </ul>
+                <a href="https://parameeranasinghe33.gumroad.com/affiliates" class="block text-center bg-white text-slate-950 py-4 rounded-xl font-black text-lg hover:bg-sky-400 transition">Get Affiliate Link</a>
+            </div>
+
+            <div class="flex flex-col gap-6">
+                <div class="bg-slate-900/50 border border-slate-800 p-8 rounded-3xl">
+                    <h4 class="text-white font-bold text-xl mb-2 flex items-center gap-2">
+                        <span class="p-2 bg-indigo-500/20 rounded-lg text-indigo-400">🕒</span> Weekly Payouts
+                    </h4>
+                    <p class="text-slate-400 text-sm">Funds are released every Friday via Gumroad’s automated system. No manual invoicing required.</p>
+                </div>
+                <div class="bg-slate-900/50 border border-slate-800 p-8 rounded-3xl">
+                    <h4 class="text-white font-bold text-xl mb-2 flex items-center gap-2">
+                        <span class="p-2 bg-purple-500/20 rounded-lg text-purple-400">🛡️</span> 14-Day Safety Period
+                    </h4>
+                    <p class="text-slate-400 text-sm">A standard 14-day hold ensures zero chargeback risk and professional error correction periods.</p>
+                </div>
+                <div class="bg-slate-900/50 border border-slate-800 p-8 rounded-3xl">
+                    <h4 class="text-white font-bold text-xl mb-2 flex items-center gap-2">
+                        <span class="p-2 bg-emerald-500/20 rounded-lg text-emerald-400">📈</span> Tracking & Cookies
+                    </h4>
+                    <p class="text-slate-400 text-sm">30-day cookie window ensures you get credit even if the CTO buys weeks after the first click.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="pt-20 pb-10 border-t border-slate-900 bg-slate-950 mt-20 text-center">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-12 mb-16 text-left">
+            <div class="col-span-2 md:col-span-1">
+                <div class="text-xl font-bold tracking-tighter italic mb-4">RANASINGHE<span class="text-sky-500">.INFRA</span></div>
+                <p class="text-slate-500 text-xs leading-relaxed">Empowering Startups with Enterprise-Grade Cloud Foundation.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-sm mb-4 uppercase tracking-widest text-left">Platform</h4>
+                <ul class="text-slate-500 text-xs space-y-2 text-left">
+                    <li><a href="solutions.html" class="hover:text-sky-400">AWS Kit</a></li>
+                    <li><a href="docs.html" class="hover:text-sky-400">Documentation</a></li>
+                    <li><a href="legal.html" class="hover:text-sky-400">Security Policy</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-sm mb-4 uppercase tracking-widest text-left">Partners</h4>
+                <ul class="text-slate-500 text-xs space-y-2 text-left">
+                    <li><a href="partners.html" class="hover:text-sky-400">Broker Hub</a></li>
+                    <li><a href="partners.html#commission" class="hover:text-sky-400">Commission Rates</a></li>
+                    <li><a href="https://calendly.com/parameeranasinghe33/30min" class="hover:text-sky-400">Support</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-sm mb-4 uppercase tracking-widest text-left">Company</h4>
+                <ul class="text-slate-500 text-xs space-y-2 text-left">
+                    <li><a href="about.html" class="hover:text-sky-400">About Us</a></li>
+                    <li><a href="legal.html#terms" class="hover:text-sky-400">Terms of Service</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-slate-600 text-xs mt-8">© 2025 Ranasinghe Infrastructure. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
