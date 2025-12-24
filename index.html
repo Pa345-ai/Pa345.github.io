@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +6,7 @@
     <title>Enterprise AWS Infrastructure Kit | Security-First IaC</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { background-color: #020617; color: #f8fafc; }
+        body { background-color: #020617; color: #f8fafc; scroll-behavior: smooth; }
         .glow-border { border: 1px solid rgba(56, 189, 248, 0.2); transition: all 0.3s ease; }
         .glow-border:hover { border-color: #38bdf8; box-shadow: 0 0 20px rgba(56, 189, 248, 0.15); }
         .glass { background: rgba(15, 23, 42, 0.6); backdrop-filter: blur(12px); }
@@ -23,11 +22,13 @@
         <div class="max-w-7xl mx-auto flex justify-between items-center">
             <div class="text-2xl font-black tracking-tighter italic">RANASINGHE<span class="text-sky-500">.INFRA</span></div>
             <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-400">
-                <a href="#features" class="hover:text-sky-400 transition">Features</a>
-                <a href="#architecture" class="hover:text-sky-400 transition">Architecture</a>
-                <a href="#pricing" class="hover:text-sky-400 transition">Pricing</a>
+                <a href="index.html" class="hover:text-sky-400 transition">Home</a>
+                <a href="solutions.html" class="hover:text-sky-400 transition">Solutions</a>
+                <a href="docs.html" class="hover:text-sky-400 transition">Docs</a>
+                <a href="partners.html" class="hover:text-sky-400 transition">Partners</a>
+                <a href="about.html" class="hover:text-sky-400 transition">Company</a>
             </div>
-            <a href="https://calendly.com/parameeranasinghe33/30min" class="bg-sky-500 hover:bg-sky-400 text-slate-950 px-6 py-2 rounded-full font-bold text-sm transition shadow-[0_0_15px_rgba(56,189,248,0.4)]">Partner Login</a>
+            <a href="partners.html" class="bg-sky-500 hover:bg-sky-400 text-slate-950 px-6 py-2 rounded-full font-bold text-sm transition shadow-[0_0_15px_rgba(56,189,248,0.4)]">Partner Login</a>
         </div>
     </nav>
 
@@ -48,7 +49,7 @@
 
         <div class="flex flex-col sm:flex-row justify-center gap-5">
             <a href="#pricing" class="bg-white text-slate-950 px-10 py-4 rounded-xl font-black text-lg hover:scale-105 transition-transform duration-200">Get Access — $1,200</a>
-            <a href="https://calendly.com/parameeranasinghe33/30min" class="glass border border-slate-700 text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-slate-800 transition">Sales Partnership</a>
+            <a href="partners.html" class="glass border border-slate-700 text-white px-10 py-4 rounded-xl font-bold text-lg hover:bg-slate-800 transition">Sales Partnership</a>
         </div>
     </header>
 
@@ -136,18 +137,46 @@
             <div class="text-7xl font-black text-white mb-6">$1,200</div>
             <p class="text-slate-400 mb-10 max-w-sm mx-auto">A one-time investment to save weeks of expensive developer labor.</p>
             
-            <a href="https://gumroad.com" class="block w-full max-w-md mx-auto bg-white text-slate-950 py-5 rounded-2xl font-black text-2xl hover:bg-sky-400 transition-colors shadow-xl">Buy Complete Assets</a>
+            <a href="https://parameeranasinghe33.gumroad.com/l/your-product-id" class="block w-full max-w-md mx-auto bg-white text-slate-950 py-5 rounded-2xl font-black text-2xl hover:bg-sky-400 transition-colors shadow-xl">Buy Complete Assets</a>
             
-            <p class="mt-8 text-xs text-slate-600 font-medium">INCLUDES: TERRAFORM MODULES • ARCHITECTURE PDF • 12 MONTHS UPDATES • PRIVATE SLACK ACCESS</p>
+            <p class="mt-8 text-xs text-slate-600 font-medium tracking-tighter uppercase">Includes: Terraform Modules • Architecture PDF • 12 Months Updates • Private Access</p>
         </div>
     </section>
 
-    <footer class="py-20 border-t border-slate-900 text-center">
-        <div class="text-xl font-bold tracking-tighter mb-4 italic">RANASINGHE<span class="text-sky-500">.INFRA</span></div>
-        <p class="text-slate-500 text-sm">Empowering Startups with Enterprise-Grade Cloud Foundation.</p>
+    <footer class="pt-20 pb-10 border-t border-slate-900 text-center bg-slate-950/50">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-12 mb-16 text-left">
+            <div class="col-span-2 md:col-span-1">
+                <div class="text-xl font-bold tracking-tighter italic mb-4">RANASINGHE<span class="text-sky-500">.INFRA</span></div>
+                <p class="text-slate-500 text-xs leading-relaxed">Empowering Startups with Enterprise-Grade Cloud Foundation.</p>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-sm mb-4 uppercase tracking-widest">Platform</h4>
+                <ul class="text-slate-500 text-xs space-y-2">
+                    <li><a href="solutions.html" class="hover:text-sky-400">AWS Kit</a></li>
+                    <li><a href="docs.html" class="hover:text-sky-400">Documentation</a></li>
+                    <li><a href="legal.html" class="hover:text-sky-400">Security Policy</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-sm mb-4 uppercase tracking-widest">Partners</h4>
+                <ul class="text-slate-500 text-xs space-y-2">
+                    <li><a href="partners.html" class="hover:text-sky-400">Broker Hub</a></li>
+                    <li><a href="partners.html#commission" class="hover:text-sky-400">Commission Rates</a></li>
+                    <li><a href="https://calendly.com/parameeranasinghe33/30min" class="hover:text-sky-400">Support</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-white font-bold text-sm mb-4 uppercase tracking-widest">Company</h4>
+                <ul class="text-slate-500 text-xs space-y-2">
+                    <li><a href="about.html" class="hover:text-sky-400">About Us</a></li>
+                    <li><a href="legal.html#terms" class="hover:text-sky-400">Terms of Service</a></li>
+                    <li><a href="legal.html#privacy" class="hover:text-sky-400">Privacy</a></li>
+                </ul>
+            </div>
+        </div>
         <p class="text-slate-600 text-xs mt-8">© 2025 Ranasinghe Infrastructure. All rights reserved.</p>
     </footer>
 
 </body>
   </html>
-                                                                           
+    
